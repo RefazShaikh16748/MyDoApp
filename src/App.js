@@ -19,8 +19,8 @@ function App() {
   const addMydo =(title,desc)=>{
     console.log("I am add a MyDo", title,desc)
     const myTodo = {
-      slno = mydos[mydos.length -1].slno +1,
-      slno: slno,
+      slno : mydos[mydos.length -1].slno +1,
+      // slno: slno,
       title: title,
       desc: desc,
     }
